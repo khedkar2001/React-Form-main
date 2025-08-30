@@ -1,0 +1,133 @@
+/* ================================
+   Global Styles
+================================ */
+:root {
+  --primary: #23a6d5;
+  --secondary: #23d5ab;
+  --error: #ff4d4d;
+  --dark: #182848;
+  --light: #ffffff;
+  --radius: 12px;
+  --transition: all 0.3s ease;
+
+  background: linear-gradient(-45deg, #32c425, #c9da30, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ================================
+   Layout
+================================ */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ================================
+   Card Form
+================================ */
+form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--dark);
+}
+
+/* ================================
+   Inputs
+================================ */
+input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: var(--radius);
+  background: #fff;
+  transition: var(--transition);
+}
+
+/* ✅ Valid / ❌ Invalid states */
+input.valid {
+  border-color: #32c425;
+}
+
+input.invalid {
+  border-color: var(--error);
+}
+
+input:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 6px rgba(35, 166, 213, 0.5);
+}
+
+/* ================================
+   Error Messages
+================================ */
+.error {
+  font-size: 14px;
+  color: var(--error);
+  margin-top: 6px;
+}
+
+/* ================================
+   Button
+================================ */
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--light);
+  background: var(--primary);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+button:hover {
+  background: var(--dark);
+}
+
+button:focus {
+  outline: 2px solid var(--secondary);
+}
+
+/* ================================
+   Responsive
+================================ */
+@media (max-width: 600px) {
+  form {
+    padding: 30px 20px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px;
+  }
+}
