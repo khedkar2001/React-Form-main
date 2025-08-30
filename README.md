@@ -19,11 +19,6 @@ The project demonstrates **React state management, form validation, error handli
   - Error → `Can't submit the form ❌`  
 - ✅ **Responsive Design** → works on desktop & mobile.  
 
----
-
-## 🎨 UI Reference
-👉 [Figma Design Link](UI Reference)  
-*(Ensure the UI matches the given design as closely as possible.)*  
 
 ---
 
@@ -36,17 +31,17 @@ The project demonstrates **React state management, form validation, error handli
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
-```bash
+ 1️⃣ Clone the repository
+
 git clone https://github.com/your-username/signup-form-react.git
 cd signup-form-react
 
-   2️⃣ Install dependencies
-```bash
+ 2️⃣ Install dependencies
+
 npm install
 
-   3️⃣ Run the project
-```bash
+ 3️⃣ Run the project
+
 npm run dev
 
 Your app will be running at http://localhost:5173/
