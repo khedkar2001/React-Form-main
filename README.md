@@ -36,7 +36,7 @@ The project demonstrates **React state management, form validation, error handli
 
 git clone https://github.com/khedkar2001/React-Form-main
 
-cd signup-form-react
+cd React-Form-main
 
  2️⃣ Install dependencies
 
