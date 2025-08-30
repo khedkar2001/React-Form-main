@@ -52,6 +52,8 @@ npm run dev
 Your app will be running at http://localhost:5173/
  (if using Vite).
 
+---
+
  ✅ Evaluation 
 Part 1: Proper use of useState
 
@@ -84,3 +86,14 @@ Part 6: Deployment
 Submit correct GitHub repo link.
 
 Submit working deployed link (Netlify/Vercel).
+
+---
+👨‍💻 Author
+
+Saurabh Khedkar 
+
+Full Stack Web Developer | Pune, MH, India 
+
+📧 saurabhrkhedkar1707@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/saurabh-khedkar)  
+🐙 [GitHub](https://github.com/khedkar2001)  
