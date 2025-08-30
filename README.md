@@ -33,7 +33,9 @@ The project demonstrates **React state management, form validation, error handli
 
  1️⃣ Clone the repository
 
-git clone https://github.com/your-username/signup-form-react.git
+
+git clone https://github.com/khedkar2001/React-Form-main
+
 cd signup-form-react
 
  2️⃣ Install dependencies
@@ -50,6 +52,7 @@ Your app will be running at http://localhost:5173/
 ---
 
  ✅ Evaluation 
+
 Part 1: Proper use of useState
 
 Input values and error states are managed correctly.
